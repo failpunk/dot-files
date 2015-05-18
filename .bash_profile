@@ -1,7 +1,10 @@
+# terminal color
 export CLICOLOR=1
-export LSCOLORS=gxBxhxDxfxhxhxhxhxcxcx
+export LSCOLORS=GxFxCxDxBxegedabagaced
+
 export EDITOR=/usr/bin/nano
 
+# shell
 alias ll='ls -lah'
 alias cd..='cd ../'                         # Go back 1 directory level (for fast typers)
 alias ..='cd ../'                           # Go back 1 directory level
@@ -22,3 +25,7 @@ alias hi='hg id'
 alias hpull='hg pull' 
 alias hp='hg push'
 alias hu='hg up -r '
+
+# php
+alias phpunit='clear;phpunit --colors'
+alias phpserver='php -S localhost:4000'
