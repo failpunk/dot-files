@@ -38,6 +38,7 @@ alias hi='hg id'
 alias hpull='hg pull' 
 alias hp='hg push'
 alias hu='hg up -r '
+alias hd='hg diff'
 
 # php
 alias phpunit='clear;phpunit --colors'
