@@ -1,5 +1,5 @@
 # Path to your oh-my-zsh installation.
-export ZSH=/Users/justin/.oh-my-zsh
+export ZSH="/Users/justin/.oh-my-zsh"
 
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/
@@ -122,3 +122,6 @@ alias hd='hg diff'
 # php
 alias phpunit='clear;phpunit --colors'
 alias phpserver='php -S localhost:4000'
+
+export NVM_DIR="/Users/justin/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
